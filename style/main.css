@@ -195,7 +195,6 @@ body {
     color: black;
 }
 
-
 /* Footer */
 
 .footer {
@@ -217,4 +216,77 @@ body {
 
 .footer-icons img {
     width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.footer-call {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+}
+
+.footer-icons p {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: rgb(90, 90, 90);
+}
+
+.footer-icons-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icons-row > * {
+    margin-right: 30px;
+
+}
+
+.social { 
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.btn {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgb(90, 90, 90);
+    background-color: rgba(255, 255, 255, 0.185);
+    border-color: rgba(255, 255, 255, 0.308);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+
+.block_with_text {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(90, 90, 90);
+    font-weight: 600;
+}
+
+.footer-call p {
+    color: rgb(77, 77, 77);
+    font-size: 20px;
+    font-weight: 600;
 }
