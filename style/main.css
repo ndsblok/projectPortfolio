@@ -28,8 +28,6 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
-    /* background-color: rgb(136, 127, 255);
-    background-image: url(/image/header/header.png); */
     background-size: cover;
     background-position: center;
 }
@@ -138,6 +136,8 @@ body {
     background-size: cover;
     padding-top: 80px;
     padding-bottom: 110px;
+    width: 100%;
+    height: 100vh;
 }
 
 
@@ -195,12 +195,16 @@ body {
     color: black;
 }
 
+.card:hover {
+    background: rgba(58, 187, 226, 0.226);
+}
+
 /* Footer */
 
 .footer {
     padding-top: 45px;
     padding-bottom: 130px;
-    background: rgba(0, 0, 0, 0.411);
+    background: rgba(6, 152, 196, 0.411);
 }
 
 .footer-row {
@@ -220,7 +224,7 @@ body {
     margin-right: 10px;
     border-radius: 50%;
     margin-bottom: 10px;
-    border: 1px solid rgb(255, 255, 255);
+    
 }
 
 .footer-call {
