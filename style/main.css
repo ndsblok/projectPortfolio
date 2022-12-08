@@ -283,10 +283,10 @@ body {
     margin-right: auto;
     color: rgb(90, 90, 90);
     font-weight: 600;
+    font-size: 20px;
 }
 
-.footer-call p {
-    color: rgb(77, 77, 77);
-    font-size: 20px;
-    font-weight: 600;
+.btn:hover {
+    color: rgb(66, 66, 66);
+    background-color: rgba(97, 97, 97, 0.753);
 }
