@@ -1,0 +1,36 @@
+/* Header */
+
+@media (max-width: 570px) {
+    .header-title {
+        text-align: center;
+    }
+}
+
+/* Main */
+
+@media (max-width: 1165px) {
+    .card {
+        width: calc(50% - 15px);
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .portfolio-card-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .portfolio {
+        height: auto;
+    }
+}
