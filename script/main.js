@@ -23,11 +23,3 @@ $(window).on("load", function () {
       bgColor: "rgba(36, 36, 36, 0.822)",
     };
 });
-
-// Js фон
-$(window).on("load", function () {
-  $("#project").vide("./video/js"),
-    {
-      bgColor: "rgba(36, 36, 36, 0.822)",
-    };
-});
