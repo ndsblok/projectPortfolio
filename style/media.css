@@ -91,7 +91,53 @@
         font-size: 20px
     }
 }
+@media (max-height: 450px) {
+    .portfolio  {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .portfolio-header {
+        margin-bottom: 10px;
+    }
+    .card {
+        width: 170px;
+    }
+    .card-img {
+        width: 130px;
+    }
+    .footer {
+        padding-bottom:  0;
+        padding-top: 30px;
+    }
+    .footer-row {
+        width: auto;
+        display: flex;
+        gap: 30px;
+        flex-direction: row;
+        align-items: baseline;
+    }
+    .footer-copyright {
+        text-align: left;
+    }
+    .footer-copyright p {
+        margin-top: 23px;
+    }
+    .footer-icons {
+        align-items: flex-start;
+    }
+}
+@media (max-height: 350px)
 
+/* Project media */
 
-
-
+@media (max-width: 640px) {
+    .project-header {
+        font-size: 50px;
+    }
+    .img {
+        width: 400px;
+    }
+    .project-description {
+        font-size: 25px;
+    }
+}
