@@ -352,7 +352,6 @@ body {
 /* Scroll up-down */
 
 .scroll-div {
-    background-color: rgba(255, 255, 255, 0.192);
     width: 60px;
     display: flex;
     flex-direction: column;
@@ -366,7 +365,7 @@ body {
 
 .scroll-div a {
     text-decoration: none;
-    color: black;
+    color:#ffffff9c;
     font-size: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
