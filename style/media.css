@@ -1,5 +1,14 @@
 /* Header */
 
+@media (max-width: 1280px) {
+    .scroll-div {
+        display: none;
+    }
+    .header-arrow {
+        display: block;
+    }
+}
+
 @media (max-width: 570px) {
     .header-title {
         text-align: center;
@@ -29,14 +38,13 @@
 
     .portfolio {
         height: auto;
-    }
+}
 
     .card {
         width: 400px;
         margin-bottom: 20px;
     }
 }
-
 
 @media (max-width: 425px) {
     .portfolio-card-wrapper {
